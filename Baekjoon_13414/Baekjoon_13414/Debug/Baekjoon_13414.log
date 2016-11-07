@@ -1,3 +1,4 @@
 ﻿  Main.cpp
-  Baekjoon_13414.vcxproj -> C:\Users\mar1s\Desktop\Algorithm\Baekjoon_13414\Debug\Baekjoon_13414.exe
-  Baekjoon_13414.vcxproj -> C:\Users\mar1s\Desktop\Algorithm\Baekjoon_13414\Debug\Baekjoon_13414.pdb (Full PDB)
+c:\users\mar1s\desktop\algorithm\baekjoon_13414\baekjoon_13414\main.cpp(10): error C2065: 'map': 선언되지 않은 식별자입니다.
+c:\users\mar1s\desktop\algorithm\baekjoon_13414\baekjoon_13414\main.cpp(10): error C2065: 'string': 선언되지 않은 식별자입니다.
+c:\users\mar1s\desktop\algorithm\baekjoon_13414\baekjoon_13414\main.cpp(10): error C2062: 예기치 않은 'int' 형식입니다.

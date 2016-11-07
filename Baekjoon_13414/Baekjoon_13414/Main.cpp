@@ -1,53 +1,38 @@
 #include <iostream>
-#include <cstring>
+#include <map>
+#include <string>
+#include <vector>
+#include <unordered_map>
 
-struct Student {
-	char number[9];
-	int order;
-};
+using namespace std;
+
+int N = 0;
+int K = 0;
+int next_size = 0;
+int prev_size = 0;
+string* students;
+unordered_map<string, int> check_list;
+vector<string> result;
 
 int main(void) {
-	int possible = 0;
-	int waiting = 0;
-	int index = 0;
-	char input_str[9];
-	Student* list = new Student[500000];
+	cin >> K >> N;
 
-	std::cin >> possible >> waiting;
+	students = new string[N];
+	for (int i = 0; i < N; i++) {
+		cin >> students[i];
+	}
 
-	for (int i = 0; i < waiting; i++) {
-		std::cin >> input_str;
-		index = atoi(input_str) % 500000;
-
-		if (!strcmp(list[index].number, input_str)) {
-			if (list[index].order <= possible) {
-				possible++;
-			}
-			list[index].order = i+1;
-		}
-		else {
-			if (list[index].order <= 0) {
-				strcpy_s(list[index].number, 9, input_str);
-				list[index].order = i+1;
-			}
-			else if(i<possible) { // 허용 범위에는 들어가지만 다른곳에 저장되어야 하는 경우
-				for (int j = 0; j < 500000; j++) {
-					if (list[j].order <= 0) {
-						index = j;
-						break;
-					}
-				}
-				strcpy_s(list[index].number, 9, input_str);
-				list[index].order = i + 1;
-			}
+	for (int i = N - 1; i >= 0; i--) {
+		prev_size = next_size;
+		check_list[students[i]] = 0;
+		next_size = check_list.size();
+		if (prev_size != next_size) {
+			result.push_back(students[i]);
 		}
 	}
 
-	for (int i = 0; i < 500000; i++) {
-		if (list[i].order > 0 && list[i].order <= possible) {
-			std::cout << list[i].number << std::endl;
-		}
+	for (int i = 0; i < K; i++) {
+		cout << result.back() << endl;
+		result.pop_back();
 	}
-
-	delete(list);
 }
