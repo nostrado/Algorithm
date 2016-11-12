@@ -30,3 +30,13 @@
 ### BaekJoon_7510 -> 해결 완료
 
 ### BaekJoon_9550 -> 해결 완료
+
+### BaekJoon_1152 -> 해결 완료
+
+### BaekJoon_2577 -> 해결 완료
+
+### BaekJoon_8958 -> 해결 완료
+
+### BaekJoon_11654 -> 해결 완료
+
+### BaekJoon_10809 -> 해결 완료
