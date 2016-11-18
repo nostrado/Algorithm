@@ -60,3 +60,5 @@
 ### BaekJoon_10828
 
 ### BaekJoon_1874(스택 수열)
+
+### BaekJoon_10845(큐)
