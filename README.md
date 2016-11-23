@@ -66,3 +66,7 @@
 ### BaekJoon_8892(팰린드롬)
 
 ### BaekJoon_1260(DFS와 BFS)
+
+### BaekJoon_1966(프린터 큐)
+
+### BaekJoon_10866(덱)
