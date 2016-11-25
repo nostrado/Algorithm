@@ -2,6 +2,7 @@
 알고리즘 커뮤니티 문제 해결 코드
 
 [알고리즘 그룹](https://www.acmicpc.net/group/member/1353)
+활동ID : solstar
 
 ### codeground_pratice_1(숫자 골라내기)
 
