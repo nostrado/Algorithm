@@ -2,6 +2,7 @@
 알고리즘 커뮤니티 문제 해결 코드
 
 [알고리즘 그룹](https://www.acmicpc.net/group/member/1353)
+
 활동ID : solstar
 
 ### codeground_pratice_1(숫자 골라내기)
@@ -89,3 +90,9 @@
 ### BaekJoon_13900(순서쌍의 곱의 합) / 순서쌍 조합의 수학적 계산 방법
 
 ### BaekJoon_1932(숫자삼각형) / 동적계획법
+
+### BaekJoon_2579(계단 오르기) / 동적계획법
+
+### BaekJoon_1110(더하기 사이클) / 수학
+
+### BaekJoon_1026(보물) / 정렬
