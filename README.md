@@ -126,3 +126,7 @@
 ### BaekJoon_2941(크로아티아 알파벳)
 
 ### BaekJoon_1011(Fly me to the Alpha Centauri)
+
+### BaekJoon_13300(방 배정)
+
+### BaekJoon_1213(팰린드롬 만들기)
